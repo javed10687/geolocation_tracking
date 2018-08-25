@@ -1,0 +1,11 @@
+<!-- Generated template for the MapComponent component -->
+<div #map id="map" class="maparea"></div>
+  <!--<button ion-button (click)="loadGoogleMap()">Map</button>-->
+  <div class="inputarea">
+  <button ion-button menu-toggle="right" clear="true" class="menuButton" > 
+    <ion-icon name="menu"></ion-icon>
+  </button>
+  <button ion-button  (click)="startTracking()" [hidden]="tracking">Start Tracking</button>
+  <button ion-button  (click)="stopTracking()" [hidden]="!tracking">Stop Tracking</button>
+  </div>
+
