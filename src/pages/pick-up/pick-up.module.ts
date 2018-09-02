@@ -8,12 +8,12 @@ import { AngularFireDatabaseModule } from 'angularfire2/database';
 import { ComponentsModule } from '../../components/components.module';
 
 var config = {
-  apiKey: "AIzaSyDI6SEnVxf9UucI06to5LVKvwm3aBkvLs0",
-  authDomain: "unified-cortex-207611.firebaseapp.com",
-  databaseURL: "https://unified-cortex-207611.firebaseio.com",
-  projectId: "unified-cortex-207611",
-  storageBucket: "unified-cortex-207611.appspot.com",
-  messagingSenderId: "5777872586"
+  apiKey: "YOUR_API_KEY",
+  authDomain: "",
+  databaseURL: "",
+  projectId: "",
+  storageBucket: "",
+  messagingSenderId: ""
 };
 
 @NgModule({
